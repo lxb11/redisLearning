@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
  * @Description
  */
 @Component
-public class RedisWorker {
+public class RedisIdWorker {
 
     /**
      * 开始时间戳 2025.1.1
@@ -26,7 +26,7 @@ public class RedisWorker {
 
     private final StringRedisTemplate stringRedisTemplate;
 
-    public RedisWorker(StringRedisTemplate stringRedisTemplate) {
+    public RedisIdWorker(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
     }
 
